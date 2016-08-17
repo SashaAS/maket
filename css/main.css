@@ -4,6 +4,25 @@ padding: 0;
 margin: 0;
 }
 
+.menu ul{
+	list-style: none;
+	margin-right: 290px;
+	padding-left: 0;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li{
+	display: inline;
+	float: right;
+	text-align: center;
+	margin: 7px;
+}
+
+
 #header{
 	height: 58px;
 	width: 100%;
@@ -118,6 +137,8 @@ ul.s2_block_description li{
 	font-size: 150%;
 	margin-left: 50px;
 	height: 35px;
+	width: 170px;
+	float: left;
 	
 }
 
@@ -252,7 +273,6 @@ ul.s2_block_description li{
 	width: 150px;
 	color: black;
 	text-align: center;
-	font-size
 }
 
 #s7_image{

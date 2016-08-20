@@ -4,9 +4,13 @@ padding: 0;
 margin: 0;
 }
 
+.menu{
+	margin-left: 55%;
+}
+
 .menu ul{
 	list-style: none;
-	margin-right: 290px;
+	/*margin-right: 290px;*/
 	padding-left: 0;
 }
 
@@ -17,7 +21,7 @@ margin: 0;
 
 .menu li{
 	display: inline;
-	float: right;
+	float: left;
 	text-align: center;
 	margin: 7px;
 }
@@ -83,30 +87,24 @@ span{
 	text-align: center;
 }
 
+.text1{
+	font-size: 21px;
+}
+
 #s2_image{
-	margin: 10% auto;
+	margin: 7% auto;
 	width: 281px;
 }
 
-ul.s2_block{
-	margin-left: 330px;
-    padding: 4px;
+.s2_block{
+	display: inline-block;
+	width: 250px;
+	text-align: center;
 }
 
-ul.s2_block li{
-	display: inline; 
-	margin: 65px;
-}
-
-ul.s2_block_description{
-	margin: 0; 
-    padding: 4px;
-}
-
-ul.s2_block_description li{
-	display: inline; 
-	text-align:center; 
-    float:left; 
+.s2_block img{
+	display: block;
+	margin-left: 103px;
 }
 
 #li1_text{
@@ -126,6 +124,15 @@ ul.s2_block_description li{
 	height: 20px;
 	margin-top: 15px;
 	margin-left: 52px;
+	margin-right: 47px;
+	color: white;
+}
+
+
+.s2_blocks{
+	width: 100%;
+	padding-left: 10%;
+	color: white;
 }
 
 #logo{
@@ -160,7 +167,7 @@ ul.s2_block_description li{
 }
 
 #section_4{
-	height: 1900px;
+	height: 1050px;
 	width: 100%;
 	background-color: white;
 }
@@ -177,19 +184,28 @@ ul.s2_block_description li{
 	width: 281px;
 }
 
-#s4_block-1{
-	height: 280px;
-	width: 350px;
-	border: 1px solid black;
-	margin-left: 100px;
-	margin-top: 75px;
+.cubs{
+	margin-left: 40px;
 }
-#s4_block-2{
+
+.s4_block-1{
 	height: 280px;
 	width: 350px;
 	border: 1px solid black;
-	margin-left: 100px;
+	margin-left: 50px;
+	/*margin-left: 100px;*/
 	margin-top: 75px;
+	display: inline-block;
+	background-color: #7B7B7B;
+}
+.s4_block-2{
+	height: 280px;
+	width: 350px;
+	border: 1px solid black;
+	margin-left: 50px;
+	margin-top: 75px;
+	display: inline-block;
+	background-color: #7B7B7B;
 }
 
 #s4-title{
@@ -273,8 +289,16 @@ ul.s2_block_description li{
 
 .s7_textContainer{
 	margin: 0 auto;
-	width: 150px;
+	width: 208px;
 	text-align: center;
+}
+
+.s7_text1{
+	font-size: 21px;
+}
+
+.s7_text1{
+
 }
 
 #s7_image{
@@ -331,4 +355,9 @@ ul.s2_block_description li{
 	
 	font-size: 200%;
 }
+
+body{
+	min-width: 958px;
+}
+
 

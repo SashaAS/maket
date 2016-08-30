@@ -12,6 +12,7 @@ margin: 0;
 	list-style: none;
 	/*margin-right: 290px;*/
 	padding-left: 0;
+	padding-top: 11px;
 }
 
 .menu a{
@@ -36,7 +37,7 @@ margin: 0;
 }
 
 #section_1{
-	height: 440px;
+	/*height: 440px;*/
 	width: 100%;
 	background-color: #161828;
 }
@@ -53,6 +54,8 @@ margin: 0;
 
 .text_blick{
 	margin-left: 50px;
+	padding-top: 100px;
+	height: 360px;
 }
 
 .button{
@@ -61,6 +64,7 @@ margin: 0;
 	width: 100px;
 	height: 35px;
 	margin-top: 55px;
+	margin-bottom: 199px;
 }
 
 span{
@@ -75,7 +79,7 @@ span{
 }
 
 #section_2{
-	height: 550px;
+	/*height: 550px;*/
 	width: 100%;
 	background-color: #475A85;
 }
@@ -85,6 +89,7 @@ span{
 	width: 150px;
 	color: white;
 	text-align: center;
+	padding-top: 55px;
 }
 
 .text1{
@@ -133,6 +138,7 @@ span{
 	width: 100%;
 	padding-left: 10%;
 	color: white;
+	padding-bottom: 85px;
 }
 
 #logo{
@@ -143,16 +149,17 @@ span{
 	color: white;
 	font-size: 150%;
 	margin-left: 50px;
-	height: 35px;
+	/*height: 35px;*/
 	width: 170px;
 	float: left;
-	
+	padding-top: 12px;
 }
 
 #section_3{
 	width: 100%;
-	height: 430px;
+	/*height: 430px;*/
 	background-image: url('../images/home-final_25.jpg');
+	padding-bottom: 195px;
 }
 
 #s3_text{
@@ -167,7 +174,7 @@ span{
 }
 
 #section_4{
-	height: 1050px;
+	/*height: 1050px;*/
 	width: 100%;
 	background-color: white;
 }
@@ -177,6 +184,7 @@ span{
 	width: 150px;
 	color: gray;
 	text-align: center;
+	padding-top: 50px;
 }
 
 #s4_image{
@@ -277,7 +285,7 @@ span{
 
 #section_7{
 	width: 100%;
-	height:700px;
+	/*height:700px;*/
 	background-color: #475A85;
 	color: white;
 }
@@ -291,6 +299,7 @@ span{
 	margin: 0 auto;
 	width: 208px;
 	text-align: center;
+	padding-top: 85px;
 }
 
 .s7_text1{
@@ -335,6 +344,7 @@ span{
 
 .s7_text-left{
 	margin-left: 75px;
+	padding-bottom: 155px;
 }
 
 #footer{

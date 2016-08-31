@@ -135,10 +135,12 @@ span{
 
 
 .s2_blocks{
-	width: 100%;
-	padding-left: 10%;
+	/*width: 100%;*/
+	/*padding-left: 10%;*/
 	color: white;
 	padding-bottom: 85px;
+	margin: 0 auto;
+	width: 1012px;
 }
 
 #logo{

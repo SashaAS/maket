@@ -190,12 +190,16 @@ span{
 }
 
 #s4_image{
-	margin: 10% auto;
+	margin: 6% auto;
 	width: 281px;
 }
 
 .cubs{
 	margin-left: 40px;
+}
+
+#first_block{
+	background-color: #475A85;
 }
 
 .s4_block-1{
@@ -205,7 +209,8 @@ span{
 	margin-left: 50px;
 	/*margin-left: 100px;*/
 	margin-top: 75px;
-	display: inline-block;
+	display: block;
+	float: left;
 	background-color: #7B7B7B;
 }
 .s4_block-2{
@@ -216,11 +221,21 @@ span{
 	margin-top: 75px;
 	display: inline-block;
 	background-color: #7B7B7B;
+	clear: both;
+}
+
+.slider-wrapper{
+	margin-bottom: 25px;
 }
 
 .text-block{
 	width: 190px;
 	margin: 90px auto;
+	color: white;
+}
+
+.text-block:first-child{
+	text-align: center;
 }
 
 #s4-title{
@@ -242,12 +257,12 @@ span{
 	margin: 0 auto;
 }
 
-#circle{
+.circle{
 	float: left;
 	margin-left: 20px;
-	margin-bottom: 100px;
-	position: relative;
-	bottom: 50px;
+	/*margin-bottom: 100px;*/
+	/*position: relative;*/
+	/*bottom: 50px;*/
 }
 
 #text-under_h2{
@@ -256,10 +271,12 @@ span{
 	height: 20px;
 }
 
-#s4_text-bot{
+.s4_text-bot{
 	margin: 170px 25px 50px 415px;
 	font-style: italic;
 	line-height: normal;
+	position: relative;
+	bottom: 70px;
 }
 
 #s4_slider-bottom{
